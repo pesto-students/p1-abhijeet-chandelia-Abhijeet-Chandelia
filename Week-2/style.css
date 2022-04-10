@@ -5,18 +5,46 @@
 
 .red{
     background-color: red;
+    transform-origin: top left;
+    transition: 0.70s;
+}
+
+.red:hover{
+    transition: 0.70s;
+    transform: rotateZ(90deg); 
 }
 
 .yellow{
     background-color: yellow;
+    transform-origin: top right;
+    transition: 0.70s;
+}
+
+.yellow:hover{
+    transition: 0.70s;
+    transform: rotateZ(-90deg); 
 }
 
 .blue{
     background-color: blue;
+    transform-origin: bottom left;
+    transition: 0.70s;
+}
+
+.blue:hover{
+    transition: 0.70s;
+    transform: rotateZ(-90deg); 
 }
 
 .green{
     background-color: green;
+    transform-origin: bottom right;
+    transition: 0.70s;
+}
+
+.green:hover{
+    transition: 0.70s;
+    transform: rotateZ(90deg); 
 }
 
 .rotate{
