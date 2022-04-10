@@ -1,0 +1,43 @@
+.heading{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-basis: 50%;
+    margin: 0 50px;
+}
+
+.column{
+    display: flex;
+    margin: 0 50px;
+}
+
+.paragraph{
+    flex-basis: 50%;
+    margin: 40px;
+}
+
+.image-container{
+    flex-basis: 50%;
+    margin: 40px;
+    text-align: center;
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+}
+
+.para{
+    flex-basis: 50%;
+    margin: 40px;
+}
+
+.para2{
+    margin-bottom: 40px;
+}
+
+.para2 h4{
+    text-transform: uppercase;
+}
