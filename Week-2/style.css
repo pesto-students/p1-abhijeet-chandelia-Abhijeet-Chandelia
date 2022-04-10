@@ -1,3 +1,8 @@
+.rotate{
+    display: flex;
+    justify-content: center;
+}
+
 .dimension{
     height: 70px;
     width: 70px;
@@ -9,7 +14,7 @@
     transition: 0.70s;
 }
 
-.red:hover{
+.rotate:hover .red{
     transition: 0.70s;
     transform: rotateZ(90deg); 
 }
@@ -20,7 +25,7 @@
     transition: 0.70s;
 }
 
-.yellow:hover{
+.rotate:hover .yellow{
     transition: 0.70s;
     transform: rotateZ(-90deg); 
 }
@@ -31,7 +36,7 @@
     transition: 0.70s;
 }
 
-.blue:hover{
+.rotate:hover .blue{
     transition: 0.70s;
     transform: rotateZ(-90deg); 
 }
@@ -42,12 +47,7 @@
     transition: 0.70s;
 }
 
-.green:hover{
+.rotate:hover .green{
     transition: 0.70s;
     transform: rotateZ(90deg); 
-}
-
-.rotate{
-    display: flex;
-    justify-content: center;
 }
