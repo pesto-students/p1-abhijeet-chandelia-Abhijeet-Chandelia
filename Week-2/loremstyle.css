@@ -41,3 +41,8 @@
 .para2 h4{
     text-transform: uppercase;
 }
+
+.form{
+    line-height: 40px;
+    margin-left: 100px;
+}
