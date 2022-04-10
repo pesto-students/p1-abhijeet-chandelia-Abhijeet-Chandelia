@@ -4,8 +4,8 @@
 }
 
 .dimension{
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
 }
 
 .red{
@@ -50,4 +50,10 @@
 .rotate:hover .green{
     transition: 0.70s;
     transform: rotateZ(90deg); 
+}
+
+.hi{
+    position: absolute;
+    z-index: -1 ;
+    top: 70px;
 }
