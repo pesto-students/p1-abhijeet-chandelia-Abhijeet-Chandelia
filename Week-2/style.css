@@ -1,0 +1,25 @@
+.dimension{
+    height: 70px;
+    width: 70px;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.rotate{
+    display: flex;
+    justify-content: center;
+}
