@@ -1,0 +1,69 @@
+.main{
+    display: flex;
+}
+
+.nav-left{
+    background:  rgb(185, 185, 185);
+    width: 4%;
+    height: 87%;
+    text-align: center; 
+    display: inline-block;
+}
+
+.song-section{
+    display: inline-block;
+    width: 90%;
+}
+
+.nav-left a{
+    display: block;
+    background-color: rgb(251, 253, 253);
+    padding: 25px 5px;
+}
+
+.image-section{
+    width: 90%;
+    background-color: rgb(62, 63, 62);
+    display: inline-block;  
+    vertical-align: top;
+    
+    
+}
+
+.image-section .img{
+    margin-top: 50px; 
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.image-section .chart{
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px;
+}
+
+.image-section .chart h2{
+    margin-block: 0;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    padding: 3px;
+    background-color: rgb(29, 113, 165);
+    color: white;
+}
+
+.footer .footer-img{
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+
+.playlist{
+    position: relative;
+    display: block;
+    top: 0;
+}
